@@ -1,25 +1,25 @@
 <script>
+import AppBlueComponent from "./AppBlueComponent.vue";
+import AppMainContent from "./AppMainContent.vue";
+
 export default {
   name: "AppMain",
+  components: {
+    AppBlueComponent,
+    AppMainContent,
+  },
 };
 </script>
 
 <template>
   <main>
-    <div>&rarr;Content goes here&larr;</div>
+    <AppMainContent />
+    <AppBlueComponent />
   </main>
 </template>
 
 <style lang="scss">
-@use "../styles/general.scss" as *;
-
 main {
   background-color: black;
-  color: white;
-  padding: 50px 0;
-
-  div {
-    @include container;
-  }
 }
 </style>
