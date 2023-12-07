@@ -8,7 +8,7 @@ export default {
   <img src="../../public/img/dc-logo.png" alt="logo" />
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 img {
   display: block;
   height: 80px;

@@ -13,16 +13,23 @@ export default {
 
 <template>
   <header>
-    <AppLogo />
-    <AppHeaderList />
+    <div class="navbar">
+      <AppLogo />
+      <AppHeaderList />
+    </div>
   </header>
 </template>
 
 <style lang="scss">
+@use "../styles/general.scss" as *;
+
 header {
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  .navbar {
+    @include container;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 </style>
