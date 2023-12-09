@@ -12,8 +12,9 @@ export default {
 button {
   all: unset;
   padding: 15px;
-  border: 1px solid #0282f9;
+  border: 2px solid #0282f9;
   text-transform: uppercase;
   color: white;
+  font-weight: 600;
 }
 </style>

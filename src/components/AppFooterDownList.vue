@@ -25,6 +25,9 @@ ul {
   li:first-child {
     color: #0282f9;
     text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -1px;
   }
 }
 </style>
