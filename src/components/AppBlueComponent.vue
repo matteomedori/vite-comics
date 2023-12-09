@@ -20,6 +20,8 @@ export default {
 
 .blue-component {
   background-color: #0282f9;
+  position: relative;
+  z-index: 1;
 
   ul {
     @include container;

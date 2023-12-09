@@ -1,6 +1,6 @@
 <script>
 import AppLogo from "./AppLogo.vue";
-import AppHeaderList from "./AppHeaderList.vue";
+import AppHeaderList from "./appheaderlist.vue";
 
 export default {
   name: "AppHeader",

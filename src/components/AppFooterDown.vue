@@ -26,6 +26,7 @@ export default {
 .footer-down {
   background-color: #303030;
   padding: 30px 0;
+  position: relative;
 
   .container {
     @include container;
