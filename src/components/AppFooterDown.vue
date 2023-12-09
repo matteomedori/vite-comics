@@ -22,9 +22,10 @@ export default {
 
 <style lang="scss" scoped>
 @use "../styles/general.scss" as *;
+@use "../styles/partials/variables" as *;
 
 .footer-down {
-  background-color: #303030;
+  background-color: $footer-bg;
   padding: 30px 0;
   position: relative;
 

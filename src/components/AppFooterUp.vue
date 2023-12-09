@@ -1,6 +1,34 @@
 <script>
 export default {
   name: "AppFooterUp",
+  data() {
+    return {
+      dcComics: [
+        "Characters",
+        "Comics",
+        "Movies",
+        "TV",
+        "Games",
+        "Videos",
+        "News",
+      ],
+      shop: ["Shop DC", "Shop DC Collectables"],
+      dc: [
+        "Terms of Use",
+        "Privacy policy(New)",
+        "Ad Choises",
+        "Advertising",
+        "Jobs",
+        "Subscriptons",
+        "Talent Workshops",
+        "CPSC Certificates",
+        "Ratings",
+        "Shop Help",
+        "Contact Us",
+      ],
+      sites: ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"],
+    };
+  },
 };
 </script>
 
@@ -11,44 +39,23 @@ export default {
         <div class="col">
           <h4>DC Comics</h4>
           <ul>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
+            <li v-for="link in dcComics">{{ link }}</li>
           </ul>
           <h4>Shop</h4>
           <ul>
-            <li>prova</li>
-            <li>prova</li>
+            <li v-for="link in shop">{{ link }}</li>
           </ul>
         </div>
         <div class="col">
           <h4>DC</h4>
           <ul>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
+            <li v-for="link in dc">{{ link }}</li>
           </ul>
         </div>
         <div class="col">
           <h4>Sites</h4>
           <ul>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
-            <li>prova</li>
+            <li v-for="link in sites">{{ link }}</li>
           </ul>
         </div>
       </div>
@@ -80,6 +87,7 @@ export default {
       h4 {
         text-transform: uppercase;
         font-size: 21px;
+        letter-spacing: -1px;
       }
 
       ul {

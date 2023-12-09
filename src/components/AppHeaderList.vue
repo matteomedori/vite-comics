@@ -29,6 +29,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../styles/partials/variables" as *;
+
 ul {
   display: flex;
   align-items: center;
@@ -54,11 +56,11 @@ ul {
   }
 
   li:hover a {
-    color: #0282f9;
+    color: $primary-blue;
   }
 
   li:hover {
-    border-color: #0282f9;
+    border-color: $primary-blue;
   }
 }
 </style>

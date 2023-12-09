@@ -9,10 +9,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../styles/partials/variables" as *;
+
 button {
   all: unset;
   padding: 15px;
-  border: 2px solid #0282f9;
+  border: 2px solid $primary-blue;
   text-transform: uppercase;
   color: white;
   font-weight: 600;

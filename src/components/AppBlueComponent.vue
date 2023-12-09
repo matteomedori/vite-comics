@@ -43,9 +43,10 @@ export default {
 
 <style lang="scss" scoped>
 @use "../styles/general.scss" as *;
+@use "../styles/partials/variables" as *;
 
 .blue-component {
-  background-color: #0282f9;
+  background-color: $primary-blue;
   position: relative;
   z-index: 1;
 

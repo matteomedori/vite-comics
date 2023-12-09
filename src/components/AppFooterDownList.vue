@@ -16,6 +16,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../styles/partials/variables" as *;
+
 ul {
   list-style-type: none;
   display: flex;
@@ -23,7 +25,7 @@ ul {
   gap: 20px;
 
   li:first-child {
-    color: #0282f9;
+    color: $primary-blue;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 18px;
