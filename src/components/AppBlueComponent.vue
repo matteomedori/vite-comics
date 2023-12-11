@@ -5,23 +5,23 @@ export default {
     return {
       links: [
         {
-          url: "../assets/img/buy-comics-digital-comics.png",
+          url: "/img/buy-comics-digital-comics.png",
           name: "digital comics",
         },
         {
-          url: "../assets/img/buy-comics-merchandise.png",
+          url: "/img/buy-comics-merchandise.png",
           name: "dc merchandise",
         },
         {
-          url: "../assets/img/buy-comics-subscriptions.png",
+          url: "/img/buy-comics-subscriptions.png",
           name: "subscription",
         },
         {
-          url: "../assets/img/buy-comics-shop-locator.png",
+          url: "/img/buy-comics-shop-locator.png",
           name: "comic shop locator",
         },
         {
-          url: "../assets/img/buy-dc-power-visa.svg",
+          url: "/img/buy-dc-power-visa.svg",
           name: "dc power visa",
         },
       ],

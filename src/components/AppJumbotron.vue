@@ -22,7 +22,7 @@ export default {
 
 .jumbo {
   height: 400px;
-  background-image: url("../assets/img/jumbotron.jpg");
+  background-image: url("/img/jumbotron.jpg");
   background-repeat: repeat;
 
   .container {

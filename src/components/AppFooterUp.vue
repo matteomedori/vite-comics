@@ -60,7 +60,7 @@ export default {
         </div>
       </div>
 
-      <img src="../assets/img/dc-logo-bg.png" alt="" />
+      <img src="/img/dc-logo-bg.png" alt="" />
     </div>
   </div>
 </template>
@@ -69,7 +69,7 @@ export default {
 @use "../assets/scss/partials/mixins" as *;
 
 .footer-up {
-  background-image: url(../assets/img/footer-bg.jpg);
+  background-image: url(/img/footer-bg.jpg);
   color: white;
   .container {
     @include container;

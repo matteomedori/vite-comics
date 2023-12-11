@@ -1,17 +1,26 @@
 <script>
 export default {
   name: "AppFooterDownList",
+  data() {
+    return {
+      imagesUrl: [
+        "/img/footer-facebook.png",
+        "/img/footer-twitter.png",
+        "/img/footer-youtube.png",
+        "/img/footer-pinterest.png",
+        "/img/footer-periscope.png",
+      ],
+    };
+  },
 };
 </script>
 
 <template>
   <ul>
     <li>Follow us</li>
-    <li><img src="../assets/img/footer-facebook.png" alt="" /></li>
-    <li><img src="../assets/img/footer-twitter.png" alt="" /></li>
-    <li><img src="../assets/img/footer-youtube.png" alt="" /></li>
-    <li><img src="../assets/img/footer-pinterest.png" alt="" /></li>
-    <li><img src="../assets/img/footer-periscope.png" alt="" /></li>
+    <li v-for="item in imagesUrl">
+      <img :src="item" alt="" />
+    </li>
   </ul>
 </template>
 
