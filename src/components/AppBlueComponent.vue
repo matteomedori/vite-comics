@@ -5,23 +5,23 @@ export default {
     return {
       links: [
         {
-          url: "../../public/img/buy-comics-digital-comics.png",
+          url: "../assets/img/buy-comics-digital-comics.png",
           name: "digital comics",
         },
         {
-          url: "../../public/img/buy-comics-merchandise.png",
+          url: "../assets/img/buy-comics-merchandise.png",
           name: "dc merchandise",
         },
         {
-          url: "../../public/img/buy-comics-subscriptions.png",
+          url: "../assets/img/buy-comics-subscriptions.png",
           name: "subscription",
         },
         {
-          url: "../../public/img/buy-comics-shop-locator.png",
+          url: "../assets/img/buy-comics-shop-locator.png",
           name: "comic shop locator",
         },
         {
-          url: "../../public/img/buy-dc-power-visa.svg",
+          url: "../assets/img/buy-dc-power-visa.svg",
           name: "dc power visa",
         },
       ],
@@ -42,9 +42,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../styles/general.scss" as *;
-@use "../styles/partials/variables" as *;
-
+@use "../assets/scss/partials/variables" as *;
+@use "../assets/scss/partials/mixins" as *;
 .blue-component {
   background-color: $primary-blue;
   position: relative;

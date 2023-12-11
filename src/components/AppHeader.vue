@@ -21,7 +21,7 @@ export default {
 </template>
 
 <style lang="scss">
-@use "../styles/general.scss" as *;
+@use "../assets/scss/partials/mixins" as *;
 
 header {
   .navbar {

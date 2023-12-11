@@ -7,16 +7,16 @@ export default {
 <template>
   <ul>
     <li>Follow us</li>
-    <li><img src="../../public/img/footer-facebook.png" alt="" /></li>
-    <li><img src="../../public/img/footer-twitter.png" alt="" /></li>
-    <li><img src="../../public/img/footer-youtube.png" alt="" /></li>
-    <li><img src="../../public/img/footer-pinterest.png" alt="" /></li>
-    <li><img src="../../public/img/footer-periscope.png" alt="" /></li>
+    <li><img src="../assets/img/footer-facebook.png" alt="" /></li>
+    <li><img src="../assets/img/footer-twitter.png" alt="" /></li>
+    <li><img src="../assets/img/footer-youtube.png" alt="" /></li>
+    <li><img src="../assets/img/footer-pinterest.png" alt="" /></li>
+    <li><img src="../assets/img/footer-periscope.png" alt="" /></li>
   </ul>
 </template>
 
 <style lang="scss" scoped>
-@use "../styles/partials/variables" as *;
+@use "../assets/scss/partials/variables" as *;
 
 ul {
   list-style-type: none;

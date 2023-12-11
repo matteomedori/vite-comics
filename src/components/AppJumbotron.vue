@@ -17,12 +17,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../styles/general.scss" as *;
-@use "../styles/partials/variables" as *;
+@use "../assets/scss/partials/variables" as *;
+@use "../assets/scss/partials/mixins" as *;
 
 .jumbo {
   height: 400px;
-  background-image: url(/img/jumbotron.jpg);
+  background-image: url("../assets/img/jumbotron.jpg");
   background-repeat: repeat;
 
   .container {

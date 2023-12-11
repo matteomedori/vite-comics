@@ -21,8 +21,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../styles/general.scss" as *;
-@use "../styles/partials/variables" as *;
+@use "../assets/scss/partials/variables" as *;
+@use "../assets/scss/partials/mixins" as *;
 
 .footer-down {
   background-color: $footer-bg;
