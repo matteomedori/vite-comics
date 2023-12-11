@@ -1,11 +1,12 @@
 <script>
 export default {
-  name: "AppBotton",
+  name: "CardsBtn",
+  props: ["btnText"],
 };
 </script>
 
 <template>
-  <button>Sign up now!</button>
+  <button>{{ btnText }}</button>
 </template>
 
 <style lang="scss" scoped>
@@ -13,10 +14,11 @@ export default {
 
 button {
   all: unset;
-  padding: 15px;
-  border: 2px solid $primary-blue;
+  background-color: $primary-blue;
+  padding: 10px 60px;
+  margin-bottom: 20px;
   text-transform: uppercase;
-  color: white;
   font-weight: 600;
+  letter-spacing: -1px;
 }
 </style>

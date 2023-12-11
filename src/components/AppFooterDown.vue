@@ -1,11 +1,11 @@
 <script>
-import AppBotton from "./AppBotton.vue";
+import AppButtonFooter from "./AppButtonFooter.vue";
 import AppFooterDownList from "./AppFooterDownList.vue";
 
 export default {
   name: "AppFooterDown",
   components: {
-    AppBotton,
+    AppButtonFooter,
     AppFooterDownList,
   },
 };
@@ -14,7 +14,7 @@ export default {
 <template>
   <div class="footer-down">
     <div class="container">
-      <AppBotton />
+      <AppButtonFooter />
       <AppFooterDownList />
     </div>
   </div>

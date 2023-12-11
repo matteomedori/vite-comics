@@ -1,9 +1,11 @@
 <script>
 import AppCard from "./AppCard.vue";
+import AppButtonCards from "./AppButtonCards.vue";
 export default {
   name: "AppMainContent",
   components: {
     AppCard,
+    AppButtonCards,
   },
   data() {
     return {
@@ -106,6 +108,7 @@ export default {
           :title="card.series"
         />
       </div>
+      <AppButtonCards :btnText="'load more'" />
     </div>
   </div>
 </template>
@@ -120,6 +123,7 @@ export default {
 
   .container {
     @include container;
+    text-align: center;
 
     .cards {
       display: flex;
