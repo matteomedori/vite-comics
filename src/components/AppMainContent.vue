@@ -1,6 +1,10 @@
 <script>
+import AppCard from "./AppCard.vue";
 export default {
   name: "AppMainContent",
+  components: {
+    AppCard,
+  },
   data() {
     return {
       cards: [
@@ -96,10 +100,11 @@ export default {
   <div class="main-content">
     <div class="container">
       <div class="cards">
-        <div class="card" v-for="card in cards">
-          <img :src="card.thumb" :alt="card.series" />
-          <h5>{{ card.series }}</h5>
-        </div>
+        <AppCard
+          v-for="card in cards"
+          :thumb="card.thumb"
+          :title="card.series"
+        />
       </div>
     </div>
   </div>
@@ -122,7 +127,8 @@ export default {
       gap: 25px;
       row-gap: 50px;
       padding: 55px 0 50px 0;
-      .card {
+
+      :deep(.card) {
         width: calc((100% - 125px) / 6);
 
         img {
