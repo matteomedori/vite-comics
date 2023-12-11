@@ -52,7 +52,6 @@ export default {
   ul {
     @include container;
     display: flex;
-    list-style: none;
     color: white;
     justify-content: space-around;
     padding: 50px 45px;
@@ -64,7 +63,6 @@ export default {
 
       a {
         text-transform: uppercase;
-        text-decoration: none;
         color: white;
         font-size: 14px;
       }

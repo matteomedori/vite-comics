@@ -1,3 +1,4 @@
+<!-- button under cards -->
 <script>
 export default {
   name: "CardsBtn",
@@ -13,11 +14,9 @@ export default {
 @use "../assets/scss/partials/variables" as *;
 
 button {
-  all: unset;
   background-color: $primary-blue;
   padding: 10px 60px;
   margin-bottom: 20px;
-  text-transform: uppercase;
   font-weight: 600;
   letter-spacing: -1px;
 }

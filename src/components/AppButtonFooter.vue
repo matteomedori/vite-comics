@@ -1,6 +1,7 @@
+<!-- sign up button  -->
 <script>
 export default {
-  name: "AppButtonFooter",
+  name: "FooterBtn",
 };
 </script>
 
@@ -12,10 +13,8 @@ export default {
 @use "../assets/scss/partials/variables" as *;
 
 button {
-  all: unset;
   padding: 15px;
   border: 2px solid $primary-blue;
-  text-transform: uppercase;
   color: white;
   font-weight: 600;
 }

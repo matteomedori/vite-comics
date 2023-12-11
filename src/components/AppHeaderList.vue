@@ -34,7 +34,6 @@ export default {
 ul {
   display: flex;
   align-items: center;
-  list-style-type: none;
   gap: 30px;
   height: 100%;
 
@@ -47,7 +46,6 @@ ul {
   }
 
   a {
-    text-decoration: none;
     color: black;
     text-transform: uppercase;
     font-weight: 600;

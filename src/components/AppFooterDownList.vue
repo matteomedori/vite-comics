@@ -19,7 +19,9 @@ export default {
   <ul>
     <li>Follow us</li>
     <li v-for="item in imagesUrl">
-      <img :src="item" alt="" />
+      <a href="#">
+        <img :src="item" alt="" />
+      </a>
     </li>
   </ul>
 </template>
@@ -28,7 +30,6 @@ export default {
 @use "../assets/scss/partials/variables" as *;
 
 ul {
-  list-style-type: none;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -36,9 +37,9 @@ ul {
   li:first-child {
     color: $primary-blue;
     text-transform: uppercase;
-    font-weight: 600;
-    font-size: 18px;
-    letter-spacing: -1px;
+    font-weight: 700;
+    font-size: 21px;
+    letter-spacing: -2px;
   }
 }
 </style>

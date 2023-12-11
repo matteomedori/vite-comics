@@ -141,12 +141,6 @@ export default {
           object-fit: cover;
           object-position: top;
         }
-
-        h5 {
-          margin-top: 20px;
-          text-transform: uppercase;
-          text-align: left;
-        }
       }
     }
   }

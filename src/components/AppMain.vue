@@ -20,9 +20,3 @@ export default {
     <AppBlueComponent />
   </main>
 </template>
-
-<style lang="scss">
-main {
-  background-color: black;
-}
-</style>

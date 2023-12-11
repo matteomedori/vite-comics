@@ -12,12 +12,10 @@ export default {
 @use "../assets/scss/partials/variables" as *;
 
 button {
-  all: unset;
   padding: 15px 30px;
   background-color: $primary-blue;
   color: white;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 22px;
+  font-weight: 700;
+  font-size: 28px;
 }
 </style>

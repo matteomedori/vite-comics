@@ -2,3 +2,10 @@
 @use "./partials/mixins" as *;
 @use "./partials/variables" as *;
 @use "./partials/typography" as *;
+
+button {
+  all: unset;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}

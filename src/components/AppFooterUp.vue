@@ -39,23 +39,31 @@ export default {
         <div class="col">
           <h4>DC Comics</h4>
           <ul>
-            <li v-for="link in dcComics">{{ link }}</li>
+            <li v-for="link in dcComics">
+              <a href="#">{{ link }}</a>
+            </li>
           </ul>
           <h4>Shop</h4>
           <ul>
-            <li v-for="link in shop">{{ link }}</li>
+            <li v-for="link in shop">
+              <a href="#">{{ link }}</a>
+            </li>
           </ul>
         </div>
         <div class="col">
           <h4>DC</h4>
           <ul>
-            <li v-for="link in dc">{{ link }}</li>
+            <li v-for="link in dc">
+              <a href="#">{{ link }}</a>
+            </li>
           </ul>
         </div>
         <div class="col">
           <h4>Sites</h4>
           <ul>
-            <li v-for="link in sites">{{ link }}</li>
+            <li v-for="link in sites">
+              <a href="#">{{ link }}</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -67,6 +75,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../assets/scss/partials/mixins" as *;
+@use "../assets/scss/partials/variables" as *;
 
 .footer-up {
   background-image: url(/img/footer-bg.jpg);
@@ -84,20 +93,17 @@ export default {
       .col {
         width: 140px;
       }
-      h4 {
-        text-transform: uppercase;
-        font-size: 21px;
-        letter-spacing: -1px;
-      }
 
       ul {
-        list-style-type: none;
-        color: gray;
         margin: 15px 0;
 
         li {
           margin-bottom: 4px;
           font-size: 12px;
+
+          a {
+            color: $links-color;
+          }
         }
       }
     }
